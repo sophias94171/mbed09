@@ -83,8 +83,8 @@ void LEDControl (Arguments *in, Reply *out)   {
 
     x = in->getArg<double>();
 
-    y = in->getArg<double>(); 
-    
+    y = in->getArg<double>();
+
 
     // Have code here to call another RPC function to wake up specific led or close it.
 
@@ -113,3 +113,4 @@ void LEDControl (Arguments *in, Reply *out)   {
     }
 
 }
+
